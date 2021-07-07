@@ -4,7 +4,7 @@ conf:
 exec_list:
   - expect: 'password:'
     exec: "{{ __loginpassword__ }}"
-  - expect: '$'
+  - expect: '$a'
     exec: "ls -l"
   - expect: '$'
     exec: exit
