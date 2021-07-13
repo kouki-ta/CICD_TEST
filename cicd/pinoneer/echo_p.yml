@@ -1,6 +1,6 @@
 # lsコマンド
 conf:
-  timeout: 15
+  timeout: 10
 exec_list:
   - expect: 'password:'
     exec: "{{ __loginpassword__ }}"
