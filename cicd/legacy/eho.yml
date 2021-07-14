@@ -1,1 +1,2 @@
-test
+- name: echo test
+  shell: echo hog
